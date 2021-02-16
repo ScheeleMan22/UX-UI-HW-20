@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    overflow: scroll;
+}
+
+/*-------------------Navigation(all pages)----------------------*/
+header {
+    background-color: #0C2037;
+    padding:15px;
+    height:15%;
+}
+header ul {
+    float: right;
+    color: #fefefe
+}
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+header h1 {
+    display:flex;
+    color:#fefefe;
+}
+
+header p {
+    display:inline-flex;
+    color: #fefefe;
+    margin-top: -10px;
+}
+/*------------------------Main Page Content-------------------------------------------------------------------*/
+.aboutButton {
+    background-color: #6AA5B8;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
+}
+.portButton {
+    background-color: #C38686;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
+}
+.connectButton {
+    background-color: #D6A988;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
+}
+.intoButton {
+    background-color: #9276BF;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-block;
+    color:#fefefe;
+    font-size:36px;
+    width: 33%;
+    height: 33%;
+    border: none;
+    margin-right: -2px;
+    margin-left: -2px;
+    text-align:center;
+    line-height: 2px;
+}
+
+/*
+.animate_content
+  animation animate 3s ease
+
+
+@keyframes animate
+  10%
+    transform scale(1, 0.002)
+  35%
+    transform scale(0.2, 0.002)
+    opacity 1
+  50%
+    transform scale(0.2, 0.002)
+    opacity 0
+  85%
+    transform scale(1, 0.002)
+    opacity 1
+  100%
+    transform scale(1, 1)
+*/
+
+/*---------------Skills Page Content------------------*/
+.aboutHeader {
+    font-size: 64px;
+    text-indent: 10%;
+    color:#fefefe;
+}
+.aboutPara {
+    display:inline-flex;   
+    color:#fefefe;
+    float: right;
+    text-indent: 10px;
+    overflow: auto;
+}
+.aboutImage {
+    float: left;
+    display: inline-flex;
+}
+.aboutMe{
+    display: inline-block;
+    overflow: auto;
+    margin-left: 5%;
+}
+.flexContainer {
+    display: flex;
+    margin: 2%;
+    gap: 10px;
+    flex-direction: row;
+}
+.flexChild {
+    width: 33%;
+    margin-top: 2%;
+}
+.flexChild2 {
+    width: 33%;
+    margin-top: 2%;
+
+}
+.flexChild3 {
+    width: 33%;
+    margin-top: 2%;
+
+}
+/*---------------Portfolio Page Content-------------------------------------*/
+.emiSelection {
+    margin: 5%;
+    display: block;
+
+}
+.usdaSelection {
+    margin: 5%;
+    display: block;
+}
+.myWork {
+    display:inline-block;
+}
+section h1 {
+    font-size: 64px;
+}
+
+section h3{
+    font-size: 36px;
+}
+
+.emiButton {
+    display: flex;
+    font-size: 24px; 
+    background-color: #0C2037; 
+    color:#FEFEFE; 
+    padding: 10px;
+    border: none;
+    margin:0 auto;
+}
+
+.upButton {
+    display: flex;
+    justify-content: center;
+    font-size: 24px; 
+    background-color: #0C2037; 
+    color:#FEFEFE; 
+    padding: 10px;
+    border: none;
+    margin:0 auto;
+}
+/*-------------Urban Peak Case Study Page Content------------------------*/
+.upCaseHead {
+    background-color: #213340;
+    display: block;
+}
+.upLogo {
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.emiCaseHead {
+    background-color: #4D789E;
+    display: block;
+}
+.emiLogo {
+    padding: 5px;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width:100px;
+    height: 100px;
+}
+
+.overviewPara {
+    text-align: justify;
+    font-size: 36px;
+    color: #988F8F;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-style: italic;
+}
+.keyThemes {
+    text-align:center;
+    font-size: 18px;
+    color: #BC3D3D;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+.row {
+    padding: 5%;
+    padding-bottom: 2%;
+}
+
+.col-md{
+    font-size: 48px;
+}
+.projectP {
+    font-size: 18px;
+}
+.myroleP {
+    font-size: 18px;
+}
+.upVideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+.insightHead {
+    padding:5%;
+}
+
+.insightPara {
+    padding:5%;
+    font-size: 18px;
+}
+
+/*-----------------Connecting mobile RWD---------------------*/
+@media only screen and (max-width: 600px) {
+    .workGrid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto auto;
+      margin: 0px 5%;
+    }
+  }
