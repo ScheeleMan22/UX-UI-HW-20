@@ -9,7 +9,7 @@ $(".aboutButton").on("click", function(){
    console.log("You clicked me!");
 
    setTimeout(function() {
-    $(location.href = "https://scheeleman22.github.io/UX_UI_HW_19/skills.html").addClass('fadeIn');
+    $(location.href = "https://scheeleman22.github.io/UX_UI_HW_20/skills.html").addClass('fadeIn');
   }, 1500);
     /*$('.button').addClass('animate_content');*/
    /*location.href = "file:///Users/Alec/Desktop/Code/UX_UI_HW_19/skills.html";*/
@@ -18,30 +18,30 @@ $(".aboutButton").on("click", function(){
    
 $(".portButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "https://scheeleman22.github.io/UX_UI_HW_19/myWork.html";
+    location.href = "https://scheeleman22.github.io/UX_UI_HW_20/myWork.html";
     });
 
 $(".connectButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "https://scheeleman22.github.io/UX_UI_HW_19/connectwithMe.html";
+    location.href = "https://scheeleman22.github.io/UX_UI_HW_20/connectwithMe.html";
     });
         
 $(".intoButton").on("click", function(){
     console.log("You clicked me!");
-    location.href = "https://scheeleman22.github.io/UX_UI_HW_19/gettingInto.html";
+    location.href = "https://scheeleman22.github.io/UX_UI_HW_20/gettingInto.html";
     });        
 
 $(".logo").on("click", function(){
         console.log("You clicked me!");
-        location.href = "https://scheeleman22.github.io/UX_UI_HW_19/index.html";
+        location.href = "https://scheeleman22.github.io/UX_UI_HW_20/index.html";
         });   
 $(".upButton").on("click", function(){
       console.log("You clicked me!");
-      location.href = "https://scheeleman22.github.io/UX_UI_HW_19/upCaseStudy.html";
+      location.href = "https://scheeleman22.github.io/UX_UI_HW_20/upCaseStudy.html";
 });
 $(".emiButton").on("click", function(){
   console.log("You clicked me!");
-  location.href = "https://scheeleman22.github.io/UX_UI_HW_19/emiCaseStudy.html";
+  location.href = "https://scheeleman22.github.io/UX_UI_HW_20/emiCaseStudy.html";
 });
 /*------------------------------------------------------*/
 /*--------------Hovering--------------------*/
